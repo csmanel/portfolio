@@ -119,15 +119,13 @@ export const contact = {
 // SEARCH ENGINE
 export const SEO = {
   // 50 - 60 char
-  title: 'Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer',
-  description:
-    'I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.',
+  title: 'Cole Manel | Computer Engineer ',
   image: profile.src,
 };
 
 export const links = {
   image: profile.src,
-  title: '@hashirshoaeb',
+  title: '@colemanel',
   description: 'Computer Engineer | Historical Musician ',
   cards: [
     {
