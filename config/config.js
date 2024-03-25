@@ -70,6 +70,7 @@ export const projects = {
   cards: [
     {
       title: 'TrackShack',
+      link: 'https://track-shack.netlify.app/',
       description:
         'A social media applicaiton that is designed to create an environment that allows musicians to post their current projects and seek collaboration with musicians of other musical persuasions.',
       icons: [
@@ -81,6 +82,7 @@ export const projects = {
     },
     {
       title: 'fspSpotify',
+      link: 'https://fspspotify.onrender.com/',
       description:
         'A React on Rails clone inspired by Spotify, featuring key functionalities such as playlist creation, a sleek audio player, and an intuitive user interface.',
       icons: [
@@ -92,6 +94,7 @@ export const projects = {
     },
     {
       title: 'Magdalena',
+      link: 'https://www.magdalena-ensemble.com/',
       description:
         'A React website for the Renaissance ensemble "Magdalena" featuring bios, upcoming concerts, and more. ',
       icons: [
@@ -101,6 +104,10 @@ export const projects = {
         },
       ],
     },
+    // {
+    //   title: 'mille regrets',
+    //   link: 'https://www.youtube.com/watch?v=k2yZsvPlSPQ&ab_channel=ColeManel',
+    // },
   ],
 };
 
