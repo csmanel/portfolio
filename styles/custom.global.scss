@@ -9,6 +9,7 @@
 // $primary-background: #FFFFFF;
 // $secondary-background: #F7F7F7;
 // $tertiary-background: #365B6D;
+// $music-background: #d6bcd0
 
 // $primary-font: #000000;
 // $secondary-font: #F7F7F7;
@@ -18,6 +19,7 @@
 // bootstrap overrides
 $primary: #bda5b7;
 $secondary: #f0f0f0;
+$music: #d6bcd0;
 $light: #ffffff;
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
@@ -141,4 +143,15 @@ a {
 .card-image:hover {
   transform: translate(-0.5rem, -0.5rem);
   box-shadow: 2rem 2rem $primary;
+}
+
+.embed-responsive,
+.embed-responsive-item {
+  width: 100%;
+  height: 100%;
+}
+
+.video-container {
+  width: 480px;
+  height: 240px;
 }

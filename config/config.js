@@ -18,6 +18,10 @@ export const navigation = {
       link: '#projects',
     },
     {
+      title: 'Music',
+      link: '#music',
+    },
+    {
       title: 'Contact',
       link: '#contact',
     },
@@ -108,6 +112,27 @@ export const projects = {
     //   title: 'mille regrets',
     //   link: 'https://www.youtube.com/watch?v=k2yZsvPlSPQ&ab_channel=ColeManel',
     // },
+  ],
+};
+
+export const music = {
+  title: 'Music',
+  cards: [
+    {
+      title: 'fake title',
+      description: 'this is a desc',
+      youtubeId: 'k2yZsvPlSPQ?si',
+    },
+    {
+      title: 'fake title',
+      description: 'this is a desc',
+      youtubeId: 'fKRXbR90Nf4?si',
+    },
+    {
+      title: 'fake title',
+      description: 'this is a desc',
+      youtubeId: 'ozBfiW3m7T8?si',
+    },
   ],
 };
 
