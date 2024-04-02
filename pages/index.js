@@ -27,10 +27,6 @@ export default function Home() {
         buttons={intro.buttons}
       />
       <About title={about.title} description={about.description} />
-      {/* <Skills
-        title={work.title}
-        cards={work.cards}
-      /> */}
       <Projects title={projects.title} cards={projects.cards} />
       <Music title={music.title} cards={music.cards} links={music.links} />
       <Contact
