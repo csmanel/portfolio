@@ -147,6 +147,7 @@ a {
 
 .embed-responsive,
 .embed-responsive-item {
+  border-radius: 10px;
   width: 100%;
   height: 100%;
 }
@@ -154,4 +155,21 @@ a {
 .video-container {
   width: 480px;
   height: 240px;
+}
+
+.card {
+  position: relative;
+  min-height: 230px;
+}
+
+.text-end {
+  bottom: 16px;
+  right: 16px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.text-end a:first-of-type {
+  margin-right: 5px;
 }
