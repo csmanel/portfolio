@@ -3,6 +3,7 @@ import {
   faAppStore,
   faGithub,
   faGooglePlay,
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 import {} from '@fortawesome/free-solid-svg-icons';
 
@@ -32,6 +33,11 @@ export const intro = {
   description: 'A historical musician turned software engineer.',
   image: profile.src,
   buttons: [
+    {
+      title: 'Connect with Me',
+      link: 'https://www.linkedin.com/in/cole-manel/',
+      isPrimary: true,
+    },
     {
       title: 'Contact Me',
       link: '#contact',
@@ -139,6 +145,11 @@ export const contact = {
     {
       title: 'Email Me',
       link: 'mailto:csmanel@gmail.com',
+      isPrimary: true,
+    },
+    {
+      title: 'Connect with Me',
+      link: 'https://www.linkedin.com/in/cole-manel/',
       isPrimary: true,
     },
   ],
