@@ -54,9 +54,23 @@ export const intro = {
 export const about = {
   title: 'Who I am',
   description: [
-    "I'm a versatile multi-instrumentalist with a diverse background spanning various musical genres and historical periods. I studied Historical Performance at the Peabody Institute of the Johns Hopkins University and the Schola Cantorum in Basel, Switzerland, specializing in both modern and historical plectrum instruments. My passion for collaboration extends beyond music, as I enthusiastically embrace the world of computer science.",
-    "I kickstarted my career in software by attending App Academy's full-stack web development bootcamp which I graduated in February 2024",
-    'When I’m not programming, I am playing in my ensemble Magdalena, experimenting with different coffee brewing methods, or playing games like Magic the Gathering',
+    {
+      text: "I'm a versatile multi-instrumentalist with a diverse background spanning various musical genres and technical qualifications. I studied Historical Performance at the Peabody Institute of the Johns Hopkins University and the Schola Cantorum in Basel, Switzerland, specializing in both modern and historical plectrum instruments. My passion for collaboration extends beyond music, as I enthusiastically embrace the world of computer science.",
+      link: null,
+    },
+    {
+      text: "I kickstarted my career in software by attending App Academy's full-stack web development bootcamp which I graduated in February 2024",
+      link: null,
+    },
+    {
+      text: 'Currently I am leading a team of designers and developers at the startup ',
+      link: 'https://www.newmoney.eco/',
+      linkText: 'New Money',
+    },
+    {
+      text: 'When I’m not programming, I am playing in my ensemble Magdalena, experimenting with different coffee brewing methods, or playing games like Magic the Gathering.',
+      link: null,
+    },
   ],
 };
 
@@ -90,7 +104,7 @@ export const projects = {
       title: 'fspSpotify',
       description:
         'A React on Rails clone inspired by Spotify, featuring key functionalities such as playlist creation, a sleek audio player, and an intuitive user interface.',
-      link: 'https://fspspotify.onrender.com/',
+      link: null,
       icons: [
         {
           icon: faGithub,
@@ -158,7 +172,7 @@ export const contact = {
 // SEARCH ENGINE
 export const SEO = {
   // 50 - 60 char
-  title: 'Cole Manel | Computer Engineer ',
+  title: 'Cole Manel | Software Engineer ',
   image: profile.src,
 };
 

@@ -52,9 +52,11 @@ export const Card = ({ title, description, link, icons }) => {
       <h4 className="text-primary">{title}</h4>
       <p className="text-dark">{description}</p>
       <div className="text-end">
-        <a target="_blank" rel="noreferrer" href={link}>
-          live site
-        </a>
+        {link && (
+          <a target="_blank" rel="noreferrer" href={link}>
+            live site
+          </a>
+        )}
         {icons &&
           icons.map((value, index) => (
             <Link key={index} href={value.link}>
