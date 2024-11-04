@@ -59,13 +59,13 @@ export const about = {
       link: null,
     },
     {
-      text: "I kickstarted my career in software by attending App Academy's full-stack web development bootcamp which I graduated in February 2024",
+      text: "I kickstarted my career in software by attending App Academy's full-stack web development bootcamp which I graduated in February 2024.",
       link: null,
     },
     {
       text: 'Currently I am leading a team of designers and developers at the startup ',
       link: 'https://www.newmoney.eco/',
-      linkText: 'New Money',
+      linkText: 'New Money.',
     },
     {
       text: 'When I’m not programming, I am playing in my ensemble Magdalena, experimenting with different coffee brewing methods, or playing games like Magic the Gathering.',
