@@ -30,7 +30,7 @@ export const navigation = {
 };
 export const intro = {
   title: "Hey, I'm Cole",
-  description: 'A historical musician turned software engineer.',
+  description: 'A historical musician and software engineer.',
   image: profile.src,
   buttons: [
     {
@@ -179,7 +179,7 @@ export const SEO = {
 export const links = {
   image: profile.src,
   title: '@colemanel',
-  description: 'Computer Engineer | Historical Musician ',
+  description: 'Software Engineer | Historical Musician ',
   cards: [
     {
       title: 'My website',
