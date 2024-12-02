@@ -166,6 +166,11 @@ export const contact = {
       link: 'https://www.linkedin.com/in/cole-manel/',
       isPrimary: true,
     },
+    {
+      title: 'All my links',
+      link: 'https://beacons.ai/colemanel',
+      isPrimary: true,
+    },
   ],
 };
 
