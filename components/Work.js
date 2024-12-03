@@ -46,7 +46,7 @@ export const Music = ({ title, cards }) => {
 export const Card = ({ title, description, link, icons }) => {
   return (
     <div
-      className="card py-3 px-3 mx-sm-4 my-4 card-work"
+      className="card py-3 px-3 mx-sm-4 my-4 card-work shadow-lg "
       style={{ width: '20rem' }}
     >
       <h4 className="text-primary">{title}</h4>
@@ -62,7 +62,7 @@ export const Card = ({ title, description, link, icons }) => {
             <Link key={index} href={value.link}>
               <a target="_blank" rel="noreferrer">
                 <FontAwesomeIcon
-                  className="icon-style mx-1"
+                  className="icon-style mx-1 "
                   icon={value.icon}
                   size="2x"
                 />
