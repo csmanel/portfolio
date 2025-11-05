@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 
 export const Projects = ({ title, cards }) => {
@@ -53,7 +54,13 @@ export const Card = ({ title, description, link, icons }) => {
       <p className="text-dark">{description}</p>
       <div className="text-end">
         {link && (
-          <a target="_blank" rel="noreferrer" href={link}>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href={link}
+            className="btn btn-sm btn-primary text-white"
+          >
+            <FontAwesomeIcon icon={faExternalLinkAlt} className="me-1" />
             live site
           </a>
         )}

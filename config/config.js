@@ -29,8 +29,8 @@ export const navigation = {
   ],
 };
 export const intro = {
-  title: "Hey, I'm Cole",
-  description: 'A historical musician and software engineer.',
+  title: "Howdy, I'm Cole",
+  description: 'A software engineer and historical musician.',
   image: profile.src,
   buttons: [
     {
@@ -55,20 +55,15 @@ export const about = {
   title: 'Who I am',
   description: [
     {
-      text: "I'm a versatile multi-instrumentalist with a diverse background spanning various musical genres and technical qualifications. I studied Historical Performance at the Peabody Institute of the Johns Hopkins University and the Schola Cantorum in Basel, Switzerland, specializing in both modern and historical plectrum instruments. My passion for collaboration extends beyond music, as I enthusiastically embrace the world of computer science.",
+      text: "I'm a full stack developer and team leader specializing in UI-centered solutions, technical leadership, and community management. My creative problem solving approach is informed by my background in Historical Performance, which I studied at the Peabody Institute and Schola Cantorum Basiliensis.",
       link: null,
     },
     {
-      text: "I kickstarted my career in software by attending App Academy's full-stack web development bootcamp which I graduated in February 2024.",
+      text: "I transitioned into software engineering through App Academy in February 2024. Since then, I've worked as a Full Stack Developer and Community Manager at HexOS, and as Project Manager and Lead Developer at New Money.",
       link: null,
     },
     {
-      text: 'Currently I am leading a team of designers and developers at the startup ',
-      link: 'https://www.newmoney.eco/',
-      linkText: 'New Money.',
-    },
-    {
-      text: 'When I’m not programming, I am playing in my ensemble Magdalena, experimenting with different coffee brewing methods, or playing games like Magic the Gathering.',
+      text: "When I'm not coding, I perform with my Renaissance ensemble Magdalena, experiment with coffee brewing methods, and play Magic the Gathering.",
       link: null,
     },
   ],
@@ -89,45 +84,19 @@ export const projects = {
   title: 'Projects',
   cards: [
     {
-      title: 'TrackShack',
+      title: 'HexOS Documentation',
       description:
-        'A social media applicaiton that is designed to create an environment that allows musicians to post their current projects and seek collaboration with musicians of other musical persuasions.',
-      link: 'https://track-shack.netlify.app/',
-      icons: [
-        {
-          icon: faGithub,
-          link: 'https://github.com/KooShnoo/track-shack/tree/main',
-        },
-      ],
+        'Official documentation site for HexOS, providing comprehensive guides, tutorials, and technical documentation for users.',
+      link: 'https://docs.hexos.com/',
+      icons: null,
     },
     {
-      title: 'fspSpotify',
+      title: 'HexOS',
       description:
-        'A React on Rails clone inspired by Spotify, featuring key functionalities such as playlist creation, a sleek audio player, and an intuitive user interface.',
-      link: null,
-      icons: [
-        {
-          icon: faGithub,
-          link: 'https://github.com/csmanel/fspSpotify/tree/main',
-        },
-      ],
+        'A modern operating system designed for home servers and self-hosting.',
+      link: 'https://hexos.com/',
+      icons: null,
     },
-    {
-      title: 'Magdalena',
-      description:
-        'A React website for the Renaissance ensemble "Magdalena" featuring bios, upcoming concerts, and more. ',
-      link: 'https://www.magdalena-ensemble.com/',
-      icons: [
-        {
-          icon: faGithub,
-          link: 'https://github.com/csmanel/magdalena-ensemble',
-        },
-      ],
-    },
-    // {
-    //   title: 'mille regrets',
-    //   link: 'https://www.youtube.com/watch?v=k2yZsvPlSPQ&ab_channel=ColeManel',
-    // },
   ],
 };
 
