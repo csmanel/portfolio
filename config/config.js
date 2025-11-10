@@ -59,7 +59,7 @@ export const about = {
       link: null,
     },
     {
-      text: "I transitioned into software engineering through App Academy in February 2024. Since then, I've worked as a Full Stack Developer and Community Manager at HexOS, and as Project Manager and Lead Developer at New Money.",
+      text: "I transitioned into software engineering through App Academy in February 2024. Since then, I've worked as a Full Stack Developer and Community Manager at Eshtek, and as Project Manager and Lead Developer at New Money.",
       link: null,
     },
     {
